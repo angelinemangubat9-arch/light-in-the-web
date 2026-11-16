@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light in the Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">✦ LIGHT IN THE WEB</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#reflection">Reflection</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#faith">Faith</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME / WELCOME PAGE -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="subtitle">✧ UNA ANG GINOO ✧</p>
+
+            <h1>LIGHT IN<br>THE WEB</h1>
+
+            <h3>Be the light in a digital world.</h3>
+
+            <p>
+                A value-centered website that inspires
+                faith, kindness, integrity, and
+                responsible use of technology.
+            </p>
+
+            <a href="#reflection" class="btn">
+                EXPLORE OUR WEBSITE
+            </a>
+        </div>
+    </section>
+
+    <!-- PAGE 1: PERSONAL REFLECTION -->
+    <section id="reflection" class="content-section">
+        <p class="tag">01 — PERSONAL REFLECTION</p>
+        <h2>Let Your Light Shine</h2>
+
+        <p>
+            Every person has the power to make a
+            difference. Through faith, honesty, and
+            kindness, we can become better individuals
+            and inspire the people around us.
+        </p>
+
+        <div class="quote">
+            "Let your light shine before others."
+            <br>— Matthew 5:16
+        </div>
+
+        <p>
+            As a student, I believe that being
+            responsible means doing what is right
+            even when nobody is watching. I will use
+            my words and actions to spread goodness
+            both online and in real life.
+        </p>
+    </section>
+
+    <!-- PAGE 2: COMMUNITY SERVICE -->
+    <section id="community" class="content-section alternate">
+        <p class="tag">02 — COMMUNITY ADVOCACY</p>
+        <h2>Small Acts, Big Impact</h2>
+
+        <p>
+            A better community begins with people
+            who care. Simple acts of kindness can
+            create meaningful changes in someone's life.
+        </p>
+
+        <div class="card-container">
+            <div class="info-card">
+                <h3>♡ Kindness</h3>
+                <p>Help people without expecting anything in return.</p>
+            </div>
+
+            <div class="info-card">
+                <h3>✦ Environment</h3>
+                <p>Keep our surroundings clean and protect nature.</p>
+            </div>
+
+            <div class="info-card">
+                <h3>♡ Volunteerism</h3>
+                <p>Share your time and skills to help others.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 3: INSPIRATIONAL PORTFOLIO -->
+    <section id="portfolio" class="content-section">
+        <p class="tag">03 — INSPIRATIONAL PORTFOLIO</p>
+        <h2>Growing With Purpose</h2>
+
+        <p>
+            Every dream begins with a small step.
+            My journey as a student is filled with
+            lessons, challenges, and opportunities
+            to grow.
+        </p>
+
+        <div class="quote">
+            "Believe in your purpose.
+            Keep growing. Keep shining."
+        </div>
+
+        <h3>My Core Values</h3>
+
+        <div class="card-container">
+            <div class="info-card">
+                <h3>Faith</h3>
+                <p>Trusting God's plans and guidance.</p>
+            </div>
+
+            <div class="info-card">
+                <h3>Integrity</h3>
+                <p>Choosing honesty in everything I do.</p>
+            </div>
+
+            <div class="info-card">
+                <h3>Perseverance</h3>
+                <p>Never giving up despite challenges.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 4: DIGITAL EDUCATION -->
+    <section id="education" class="content-section alternate">
+        <p class="tag">04 — DIGITAL EDUCATION</p>
+        <h2>Think Before You Click</h2>
+
+        <p>
+            The internet gives us many opportunities
+            to learn and connect. However, we must
+            use it wisely and responsibly.
+        </p>
+
+        <div class="info-card">
+            <h3>Be Kind Online</h3>
+            <p>Respect others and avoid cyberbullying.</p>
+        </div>
+
+        <div class="info-card">
+            <h3>Protect Your Privacy</h3>
+            <p>Never share sensitive personal information.</p>
+        </div>
+
+        <div class="info-card">
+            <h3>Check Before Sharing</h3>
+            <p>Verify information before posting or forwarding it.</p>
+        </div>
+
+        <div class="info-card">
+            <h3>Respect Everyone</h3>
+            <p>Remember that real people are behind every screen.</p>
+        </div>
+    </section>
+
+    <!-- PAGE 5: FAITH AND TECHNOLOGY -->
+    <section id="faith" class="content-section">
+        <p class="tag">05 — FAITH & TECHNOLOGY</p>
+        <h2>Technology With Purpose</h2>
+
+        <p>
+            Technology is a powerful tool that can
+            spread hope, encouragement, and positive
+            messages to people around the world.
+        </p>
+
+        <div class="quote">
+            "Use technology not only to connect,
+            but also to inspire."
+        </div>
+
+        <p>
+            Guided by faith and good values, we can
+            turn our digital spaces into places of
+            encouragement, learning, and positivity.
+        </p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <h2>✦ LIGHT IN THE WEB ✦</h2>
+        <p>Faith • Integrity • Kindness • Responsibility</p>
+        <p>Created with purpose and faith.</p>
+        <p class="copyright">
+            © 2026 Light in the Web. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
