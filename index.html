@@ -10,10 +10,24 @@
 
 <body>
 
+  <div id="loginScreen">
+  <div class="login-box">
+    <h2>Welcome!</h2>
+    <p>Light in the Web</p>
+
+    <input type="text" id="username" placeholder="Enter username">
+    <input type="password" id="password" placeholder="Enter password">
+
+    <button onclick="login()">Log In</button>
+    <p id="errorMessage"></p>
+  </div>
+  </div>
+
     <!-- NAVIGATION -->
     <header>
         <nav class="navbar">
-            <h2 class="logo">✦ LIGHT IN THE WEB</h2>
+            <h2 class="logo">
+      LIGHT IN THE WEB</h2>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#reflection">Reflection</a></li>
@@ -114,8 +128,7 @@
         </p>
 
         <div class="quote">
-            "Believe in your purpose.
-            Keep growing. Keep shining."
+            "Every day is a chance to be better than yesterday."
         </div>
 
         <h3>My Core Values</h3>
@@ -201,7 +214,22 @@
         <p class="copyright">
             © 2026 Light in the Web. All Rights Reserved.
         </p>
-    </footer>
+    </footer> 
+
+  <script>
+function login() {
+  const username = document.getElementById("username").value;
+  const password = document.getElementById("password").value;
+
+  if (username === "angeline" && password === "mangubat#7") {
+    document.getElementById("loginScreen").style.display = "none";
+  } else {
+    document.getElementById("errorMessage").textContent =
+      "Incorrect username or password. Please try again.";
+  }
+}
+  </script>
 
 </body>
 </html>
+
